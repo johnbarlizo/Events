@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+marquee {
+    background-color: rgba(0,194,255,1);
+    text-shadow: 0 0 10px white;
+}
+
+.picture1{
+    display: flex;
+    justify-content: center;
+}
+
+
+a { 
+    font-size: 22px;
+    color: black;
+    text-shadow: 0 0 5px rgba(0,194,255,1);
+}
+
+h2 {
+    color: var(--main-color);
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+.signature {
+    margin-left: 30px;
+    margin-bottom: -19px;
+}
+.name h1{ 
+        margin-top: 20px;
+        font-size: 30px;
+        text-shadow: 0 0 10px white;
+    }
+
+    .picture img {
+        margin-top: 30px;
+        height: auto;
+        border-radius: 150px;
+        margin-bottom: 20px;
+    }
+
+    i {
+        font-size: 20px;
+        color: var(--main-color);
+    }   
+
+    
+
+.back a{
+    color: aquamarine;
+}
+
+
+:root {
+    --main-color: white;
+    
+     
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+}
+
+body{
+    color: var(--text-color);
+    background-image: url("gr.jpg");
+    background-size: cover;
+    
+}
+
+
+.name {
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px 
+    #1F377B, 0 0 30px #1F377B, 0 0 40px #1F377B, 0 0 55px #1F377B, 0 0 75px 
+    #1F377B, 2px 2px 10px rgba(206,89,55,0);
+    margin-left: 40px;
+}
+
+
+section{
+    padding: 70px 17%;
+}
+
+.quote {
+    margin-top: 20px;
+}
+
+.home-img img{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 150px;
+    box-shadow: 15px 18px 8px -4px #1F377B;
+-webkit-box-shadow: 15px 18px 8px -4px #1F377B;
+-moz-box-shadow: 15px 18px 8px -4px #1F377B;
+}
+.home-text h1{
+    font-size: 55px;
+    color: white;
+    text-shadow: 0 0 10px #1F377B ;
+    margin-left: 40px;
+        
+        
+}
+.home-text h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 2rem;
+    color: black;
+    text-shadow: 0 0 10px #1F377B;
+    margin-left: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+.tab h1 {
+    margin-top: 40px;
+    font-size: 20px;
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 18px;
+    text-shadow: 0 0 10px #1F377B;
+}
+  
+table, th, td {
+    border: 2px solid black;
+    padding: 14px;
+    color: white;
+    background: #1F377B;
+}
+
+td a {
+    color: rgba(0,194,255,1);
+    font-size: 18px;
+    text-shadow: 0 0 5px black;
+}
+
+
+.heading{
+    text-align: center;
+}
+
+.heading h2{
+    font-size: var(--h2-font);
+    color: var(--main-color);
+    text-shadow: 0 0 10px #1F377B;
+}
+
+.menu-container{
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+    grid-gap: 0.5rem;
+    align-items: center;
+}
+
+.box{
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+    -webkit-box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+    -moz-box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+}
+
+.box-img img{
+    border-radius: 25px;
+    
+}
+
+.box h2{
+    font-size: 1.3rem;
+    color: var(--main-color);
+    text-shadow: 0 0 10px #1F377B;
+    margin-top: 20px;
+}
+
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, auto));
+    grid-gap: 0.5rem;
+    margin-top: 1rem;
+}
+.s-box{
+    text-align: center;
+    padding: 1px;
+    box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+    -webkit-box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+    -moz-box-shadow: 15px 18px 8px -4px rgba(0,194,255,1);
+}
+.s-box h3{
+    margin: 4px 0 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    text-shadow: 0 0 10px #1F377B;
+}
+.s-box p{
+    line-height: 1.2;
+    color: var(--main-color);
+    text-shadow: 0 0 10px #1F377B;
+}
+
+/*  Calendar */
+
+.cal h2 {
+    font-size: var(--h2-font);
+    color: var(--main-color);
+    text-shadow: 0 0 10px #1F377B;
+    margin-bottom: 20px;
+}
+
+.calendar img {
+    margin-bottom: -100px;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.pic2 {
+    display: flex;
+    justify-content: center;
+}
+
+.par p {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+}
